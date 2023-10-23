@@ -1,0 +1,33 @@
+name: todoapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/F0396 - Pregnancy Due Date.jpg
+    - images/priority.jpg
+    - images/istockphoto-1197529239-612x612.jpg
+    - images/duedate.jpg
+    - images/pngtree-comic-style-todo-list-icon-with-check-marks-on-white-background-png-image_12403295.png
+    - images/work-at-home-concept-illustration-freelance-man-working-on-computer-at-her-house-isolated-on-white-background-online-study-education-vector.jpg
+    - images/how-to-prioritize-your-tasks-at-work-and-in-your-private-life.jpg
+    - images/large-amount-work-vector-25566196.jpg
+
